@@ -1,0 +1,25 @@
+{
+  "options": {
+    "warcInfo": {
+
+    },
+
+    "filename": "warc",
+    "location": "warc/",
+
+    "maxsize": 100000,
+    "compression_enabled": false,
+    "digests_enabled": true,
+
+    "cdx_enabled": false,
+    "cdx_dedup_filename": "warc-cdx",
+
+    "use_robots": "clasic",
+    "user_headers": [],
+
+    "warc_keep_log": false,
+    "log_name": "warc.log",
+
+    "manifest_fp": "mainfest"
+  }
+}
