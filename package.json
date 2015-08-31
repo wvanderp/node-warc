@@ -1,0 +1,21 @@
+{
+  "name": "node-warc",
+  "version": "0.1.0",
+  "description": "a warc archiver for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "warc",
+    "arc",
+    "archive"
+  ],
+  "author": "wouter van der plas",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.2",
+    "node-uuid": "^1.4.3",
+    "sha1": "^1.1.1"
+  }
+}
