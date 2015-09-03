@@ -1,10 +1,20 @@
 {
   "options": {
     "warcInfo": {
-
+      "software": "node-warc",
+      "ip": "192.168.1.13",
+      "hostname": "blackbook",
+      "format": "WARC File Format 1.0",
+      "conformsTo": "http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf",
+      "robots": "off",
+      "operator": "unknown",
+      "isPartOf": "archive.org-shallow",
+      "description": "archive.org shallow",
+      "http-header-user-agent": "Mozilla/5.0 (compatible; heritrix/1.14.0 +http://crawler.archive.org)",
+      "http-header-from": "archive-crawler-agent@lists.sourceforge.net"
     },
 
-    "filename": "warc",
+    "filename": "crawl",
     "location": "warc/",
 
     "maxsize": 100000,

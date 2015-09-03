@@ -2,6 +2,7 @@
 #project specific
 # =========================
 
+warc/
 
 # Logs
 logs
