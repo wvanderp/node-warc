@@ -11,7 +11,7 @@ software: Wget/1.14.lua.20130523-9a5c (linux-gnu)
 format: WARC File Format 1.0
 conformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf
 robots: off
-wget-arguments: "-U" "ArchiveTeam ArchiveBot/20131009.01" "-nv" "-o" "/home/archivebot/ArchiveBot/data/152558380-1/2luxz0kz3lhxnymxhnwz2ky1s/wget.log" "--save-cookies" "/home/archivebot/ArchiveBot/data/152558380-1/2luxz0kz3lhxnymxhnwz2ky1s/cookies.txt" "--no-check-certificate" "--output-document" "/home/archivebot/ArchiveBot/data/152558380-1/2luxz0kz3lhxnymxhnwz2ky1s/wget.tmp" "--truncate-output" "-e" "robots=off" "" "" "" "--page-requisites" "--no-parent" "--timeout" "60" "--tries" "20" "--waitretry" "10" "--warc-file" "/home/archivebot/ArchiveBot/data/152558380-1/2luxz0kz3lhxnymxhnwz2ky1s/2luxz0kz3lhxnymxhnwz2ky1s-20131010-090331" "--warc-header" "operator: Archive Team" "--warc-header" "downloaded-by: ArchiveBot" "--warc-header" "archivebot-job-ident: 2luxz0kz3lhxnymxhnwz2ky1s" "--wait" "0.25" "--random-wait" "--lua-script" "archivebot.lua" "http://study.gaijinpot.com/"
+wget-arguments: "-U" "ArchiveTeam ArchiveBot/20131009.01"
 operator: Archive Team
 downloaded-by: ArchiveBot
 archivebot-job-ident: 2luxz0kz3lhxnymxhnwz2ky1s
