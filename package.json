@@ -15,15 +15,15 @@
   "author": "wvanderp",
   "license": "MIT",
   "dependencies": {
-    "Request": "*",
     "babel-cli": "^6.6.5",
     "babel-core": "*",
     "babel-preset-es2015": "*",
     "fs": "*",
     "mocha": "*",
     "node-uuid": "*",
-    "request": "^2.69.0",
+    "public-ip": "^1.2.0",
     "sha1": "*",
-    "should": "*"
+    "should": "*",
+    "sync-request": "^3.0.0"
   }
 }
