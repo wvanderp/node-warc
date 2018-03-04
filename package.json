@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "babel-node run.js"
+    "lint": "eslint ./",
+    "run": "node run.js"
   },
   "keywords": [
     "warc",
@@ -15,9 +16,6 @@
   "author": "wvanderp",
   "license": "MIT",
   "dependencies": {
-    "babel-cli": "^6.6.5",
-    "babel-core": "*",
-    "babel-preset-es2015": "*",
     "fs": "*",
     "mocha": "*",
     "node-uuid": "*",
@@ -25,5 +23,8 @@
     "sha1": "*",
     "should": "*",
     "sync-request": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2"
   }
 }
