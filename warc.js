@@ -1,25 +1,26 @@
-import * as warcfile from "./lib/warcFile"
-var publicIp = require('public-ip');
+import * as warcfile from './lib/warcFile'
 
-export class Warc{
-    constructor(){
-        this.settings = {};
-        this.ip = "192.168.8.1";
-    }
+let publicIp = require('public-ip');
 
-    getPage(url){
+export class Warc {
+  constructor() {
+    this.settings = {};
+    this.ip = '192.168.8.1';
+  }
 
-    }
+  getPage(url) {
 
-    addPageToWarc(){
+  }
 
-    }
+  addPageToWarc() {
 
-    writeWarc(fileLocation){
+  }
 
-    }
+  writeWarc(fileLocation) {
 
-    getWarcSize(){
+  }
 
-    }
+  getWarcSize() {
+
+  }
 }
