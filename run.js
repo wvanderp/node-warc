@@ -1,3 +1,3 @@
-import {Warc} from "./warc";
+let warc = require('./warc');
 
 var warc = new Warc();
