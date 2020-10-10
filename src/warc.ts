@@ -67,7 +67,7 @@ class Warc {
         // fix all
 
         // console.log(requestBody);
-        // console.log("respones")
+        // console.log("response")
         // console.log(responseBody)
 
         this.records.push({
