@@ -7,12 +7,40 @@
     }
   },
   "env": {
-    "browser": true,
     "node": true,
     "mocha": true
   },
-  "extends": "eslint:recommended",
+  "plugins": [
+    "json",
+    "promise"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:promise/recommended",
+    "plugin:json/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:node/recommended"
+  ],
   "rules": {
-    "no-var": "error"
+    "eol-last": [ "error", "always" ],
+    "no-var": "error",
+    "semi": [ "error", "always" ],
+    "prefer-arrow-callback": "error",
+    "promise/always-return": "off",
+    "promise/catch-or-return": "off",
+    "no-console": [
+      "error", {
+        "allow": [ "warn", "error" ]
+      }
+    ],
+    "comma-dangle": [ "error", "never" ],
+    "quotes": [ "error", "double" ],
+    "no-magic-numbers": [
+      "error", {
+        "ignoreArrayIndexes": true,
+        "ignore": [ 0, 1, 2 ]
+      }
+    ]
   }
 }
