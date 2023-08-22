@@ -1,0 +1,133 @@
+WARC/1.0
+WARC-Type: warcinfo
+Content-Type: application/warc-fields
+WARC-Date: 2015-03-30T23:50:45Z
+WARC-Record-ID: <urn:uuid:af068b1e-6313-43f7-9278-e68e65528cee>
+WARC-Block-Digest: sha1:MGSSX5ASCQTIUD7KBQ6336KGRIOQHBDE
+Content-Length: 3520
+WARC-Warcinfo-ID: <urn:uuid:af068b1e-6313-43f7-9278-e68e65528cee>
+
+Software: Wpull/1.0 Python/3.4.2
+Format: WARC File Format 1.0
+Conformsto: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf
+Robots: off
+Wpull-Arguments: Namespace(accept=None, accept_regex=None, adjust_extension=False, always_getaddrinfo=False, append_output=None, ascii_print=False, backup_converted=False, base=None, bind_address=None, ca_certificate='/etc/ssl/certs/ca-certificates.crt', ca_directory='/etc/ssl/certs/', certificate=None, certificate_type=None, check_certificate=True, clobber_method=None, concurrent=1, connect_timeout=None, content_disposition=False, content_on_error=False, continue_download=False, convert_links=False, cookies=True, cut_dirs=None, database=':memory:', database_uri=None, debug_console_port=None, debug_manhole=False, default_page='index.html', delete_after=False, directory_prefix='.', dns_cache=True, dns_timeout=None, domains=None, edg_file=None, escaped_fragment=False, exclude_directories=None, exclude_domains=None, exclude_hostnames=None, follow_ftp=False, follow_tags=None, force_html=False, ftp_password=None, ftp_user=None, header=[], host_directories=True, hostnames=None, html_parser='html5lib', http_compression=False, http_keep_alive=True, http_password=None, http_proxy=None, http_user=None, https_only=False, https_proxy=None, ignore_fatal_errors=False, ignore_length=False, ignore_tags=None, include_directories=None, inet_family=None, input_file=None, keep_session_cookies=False, level=5, limit_rate=None, link_extractors=['html', 'css', 'javascript'], load_cookies=None, local_encoding=None, lua_script=None, max_filename_length=160, max_redirect=20, monitor_disk=None, monitor_memory=None, no_cache=False, no_iri=False, no_parent=False, no_proxy=False, no_warc_compression=False, output_document=None, output_file=None, page_requisites=False, page_requisites_level=5, password=None, phantomjs=False, phantomjs_exe='phantomjs', phantomjs_max_time=900, phantomjs_scroll=20, phantomjs_smart_scroll=True, phantomjs_snapshot=True, phantomjs_wait=1.0, plugin_args=None, plugin_script=None, post_data=None, post_file=None, prefer_family=None, preserve_permissions=False, private_key=None, private_key_type=None, progress='bar', protocol_directories=False, proxy_domains=None, proxy_exclude_domains=None, proxy_exclude_hostnames=None, proxy_hostnames=None, proxy_password=None, proxy_server=False, proxy_server_address='localhost', proxy_server_port=0, proxy_user=None, python_script=None, quota=None, random_file=None, random_wait=False, read_timeout=900, recursive=False, referer=None, regex_type=None, reject=None, reject_regex=None, relative=False, remote_encoding=None, remove_listing=True, report_speed=None, restrict_file_names=['unix'], retr_symlinks=True, retry_connrefused=False, retry_dns_error=False, robots=False, rotate_dns=False, save_cookies=None, save_headers=False, secure_protocol=2, server_response=False, session_timeout=None, sitemaps=False, span_hosts=False, span_hosts_allow=[], strip_session_id=False, strong_crypto=True, strong_redirects=True, timeout=None, timestamping=False, tries=20, trust_server_names=False, urls=['http://example.com/'], use_directories=None, use_internal_ca_certs=True, use_server_timestamps=True, user=None, user_agent=None, verbosity=19, wait=0.0, waitretry=10.0, warc_append=False, warc_cdx=False, warc_dedup=None, warc_digests=True, warc_file='wpull-warc.gz', warc_header=[], warc_log=True, warc_max_size=None, warc_move=None, warc_tempdir='.', youtube_dl=False, youtube_dl_exe='youtube-dl')
+
+
+
+WARC/1.0
+WARC-Type: request
+Content-Type: application/http;msgtype=request
+WARC-Date: 2015-03-30T23:50:45Z
+WARC-Record-ID: <urn:uuid:0df4da7d-fba4-4f63-a988-86decafe9607>
+WARC-Target-URI: http://example.com/
+WARC-IP-Address: 93.184.216.34
+WARC-Block-Digest: sha1:RQ3QG4LXKOVG6NJVAJUGNVTN3BP6MU5A
+WARC-Payload-Digest: sha1:3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ
+Content-Length: 67
+WARC-Warcinfo-ID: <urn:uuid:af068b1e-6313-43f7-9278-e68e65528cee>
+
+GET / HTTP/1.1
+User-Agent: Wpull/1.0 (gzip)
+Host: example.com
+
+
+
+WARC/1.0
+WARC-Type: response
+Content-Type: application/http;msgtype=response
+WARC-Date: 2015-03-30T23:50:46Z
+WARC-Record-ID: <urn:uuid:44757ce4-94e1-4cd9-b2ef-e18bbd242c94>
+WARC-Target-URI: http://example.com/
+WARC-IP-Address: 93.184.216.34
+WARC-Concurrent-To: <urn:uuid:0df4da7d-fba4-4f63-a988-86decafe9607>
+WARC-Block-Digest: sha1:B6SUNLELAS2CCDTIAQQHUWEJBPY4KT5H
+WARC-Payload-Digest: sha1:B2LTWWPUOYAH7UIPQ7ZUPQ4VMBSVC36A
+Content-Length: 1591
+WARC-Warcinfo-ID: <urn:uuid:af068b1e-6313-43f7-9278-e68e65528cee>
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=604800
+Content-Type: text/html
+Date: Mon, 30 Mar 2015 23:50:46 GMT
+Etag: "359670651"
+Expires: Mon, 06 Apr 2015 23:50:46 GMT
+Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT
+Server: ECS (rhv/818F)
+X-Cache: HIT
+x-ec-custom-error: 1
+Content-Length: 1270
+
+<!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 1em;
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+            width: auto;
+            margin: 0 auto;
+            border-radius: 0;
+            padding: 1em;
+        }
+    }
+    </style>    
+</head>
+
+<body>
+<div>
+    <h1>Example Domain</h1>
+    <p>This domain is established to be used for illustrative examples in documents. You may use this
+    domain in examples without prior coordination or asking for permission.</p>
+    <p><a href="http://www.iana.org/domains/example">More information...</a></p>
+</div>
+</body>
+</html>
+
+
+WARC/1.0
+WARC-Type: resource
+Content-Type: text/plain
+WARC-Date: 2015-03-30T23:50:46Z
+WARC-Record-ID: <urn:uuid:932a7747-d661-409d-8174-560e41769e52>
+WARC-Target-URI: urn:X-wpull:log
+WARC-Block-Digest: sha1:Q32A3PBAN6S7I26HWZDX5CDCB6MN6UN6
+Content-Length: 720
+WARC-Warcinfo-ID: <urn:uuid:af068b1e-6313-43f7-9278-e68e65528cee>
+
+2015-03-30 16:50:45,566 - wpull.builder - WARNING - Certificate directory /etc/ssl/certs/ does not exist.
+2015-03-30 16:50:45,566 - wpull.builder - WARNING - Certificate file /etc/ssl/certs/ca-certificates.crt does not exist.
+2015-03-30 16:50:45,620 - wpull.processor.web - INFO - Fetching ‘http://example.com/’.
+2015-03-30 16:50:46,883 - wpull.processor.web - INFO - Fetched ‘http://example.com/’: 200 OK. Length: 1270 [text/html].
+2015-03-30 16:50:46,898 - wpull.app - INFO - FINISHED.
+2015-03-30 16:50:46,899 - wpull.app - INFO - Duration: 0:00:01. Speed: 937.4 B/s.
+2015-03-30 16:50:46,899 - wpull.app - INFO - Downloaded: 1 file, 1.2 KiB.
+2015-03-30 16:50:46,900 - wpull.app - INFO - Exiting with status 0.
+
+

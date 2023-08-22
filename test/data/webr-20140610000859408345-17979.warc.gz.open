@@ -1,0 +1,194 @@
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:f6271bbf-d071-434a-8075-aa3a294d8004>
+WARC-Date: 2014-06-10T00:08:59Z
+WARC-Target-URI: http://httpbin.org/post
+WARC-IP-Address: 107.21.213.98
+Content-Type: application/http;msgtype=response
+WARC-Payload-Digest: sha1:M532K5WS4GY2H4OVZO6HRPOP47A7KDWU
+Content-Length: 733
+WARC-Block-Digest: sha1:45WVU5OJI3ME2BRNDQTZ3SAQHDVYNWYF
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 10 Jun 2014 00:08:59 GMT
+Server: gunicorn/18.0
+Content-Length: 545
+Connection: keep-alive
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "foo": "bar", 
+    "test": "abc"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "16", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Cookie": "Max-Age=3600; Path=/", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.27.0", 
+    "X-Request-Id": "30c59b48-7752-4dad-9ba6-790bdc30f731"
+  }, 
+  "json": null, 
+  "origin": "75.101.62.254", 
+  "url": "http://httpbin.org/post"
+}
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:59a6b068-cbc2-4767-9525-33043d2709c7>
+WARC-Date: 2014-06-10T00:08:59Z
+WARC-Target-URI: http://httpbin.org/post
+WARC-Concurrent-To: <urn:uuid:f6271bbf-d071-434a-8075-aa3a294d8004>
+WARC-Block-Digest: sha1:P5MR6QJ66BEKMW4T5M3NRLYC7XB7C7QE
+Content-Type: application/http;msgtype=request
+Content-Length: 227
+
+POST /post HTTP/1.1
+content-length: 16
+accept-encoding: gzip, deflate
+accept: */*
+user-agent: curl/7.27.0
+host: httpbin.org
+cookie: Max-Age=3600; Path=/
+content-type: application/x-www-form-urlencoded
+
+foo=bar&test=abc
+
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:fdd3c36a-2949-4de2-b35e-4f5fa3f642bb>
+WARC-Date: 2014-06-10T00:11:51Z
+WARC-Target-URI: http://httpbin.org/post
+WARC-IP-Address: 54.243.116.211
+Content-Type: application/http;msgtype=response
+WARC-Payload-Digest: sha1:M7YCTM7HS3YKYQTAWQVMQSQZBNEOXGU2
+Content-Length: 740
+WARC-Block-Digest: sha1:M2YYEQXZSMMW56YSI5IHBH5FN44LEC47
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 10 Jun 2014 00:11:51 GMT
+Server: gunicorn/18.0
+Content-Length: 552
+Connection: keep-alive
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "A": "1", 
+    "B": "[]", 
+    "C": "3"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "12", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Cookie": "Max-Age=3600; Path=/", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.27.0", 
+    "X-Request-Id": "555b2738-54e3-4a1a-9e5a-2d4140595336"
+  }, 
+  "json": null, 
+  "origin": "75.101.62.254", 
+  "url": "http://httpbin.org/post"
+}
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:5eb8ee92-cda1-4503-a7a3-c63f1ab6515b>
+WARC-Date: 2014-06-10T00:11:51Z
+WARC-Target-URI: http://httpbin.org/post
+WARC-Concurrent-To: <urn:uuid:fdd3c36a-2949-4de2-b35e-4f5fa3f642bb>
+WARC-Block-Digest: sha1:ZDRS5FERTVBJ7NOMGLSJ77RJI4VNDF43
+Content-Type: application/http;msgtype=request
+Content-Length: 223
+
+POST /post HTTP/1.1
+content-length: 12
+accept-encoding: gzip, deflate
+accept: */*
+user-agent: curl/7.27.0
+host: httpbin.org
+cookie: Max-Age=3600; Path=/
+content-type: application/x-www-form-urlencoded
+
+A=1&B=[]&C=3
+
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:b1ae5a2c-b37b-469c-8214-26030832c7a5>
+WARC-Date: 2014-06-10T00:12:55Z
+WARC-Target-URI: http://httpbin.org/post?foo=bar
+WARC-IP-Address: 184.72.242.196
+Content-Type: application/http;msgtype=response
+WARC-Payload-Digest: sha1:B6E5P6JUZI6UPDTNO4L2BCHMGLTNCUAJ
+Content-Length: 739
+WARC-Block-Digest: sha1:N6ZWB6WOXBZMR5GR37VWZWC2Y5RQV4UG
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 10 Jun 2014 00:12:55 GMT
+Server: gunicorn/18.0
+Content-Length: 551
+Connection: keep-alive
+
+{
+  "args": {
+    "foo": "bar"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "data": "^"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "6", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Cookie": "Max-Age=3600; Path=/", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.27.0", 
+    "X-Request-Id": "471bd11b-dd5c-48e3-a27c-25e1f059eee6"
+  }, 
+  "json": null, 
+  "origin": "75.101.62.254", 
+  "url": "http://httpbin.org/post?foo=bar"
+}
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:c79a62e3-5a4b-450d-a093-3a7fefa09664>
+WARC-Date: 2014-06-10T00:12:55Z
+WARC-Target-URI: http://httpbin.org/post?foo=bar
+WARC-Concurrent-To: <urn:uuid:b1ae5a2c-b37b-469c-8214-26030832c7a5>
+WARC-Block-Digest: sha1:XMBCQUVQUUCXGDYJBC6Z44XJVDF74NMJ
+Content-Type: application/http;msgtype=request
+Content-Length: 224
+
+POST /post?foo=bar HTTP/1.1
+content-length: 6
+accept-encoding: gzip, deflate
+accept: */*
+user-agent: curl/7.27.0
+host: httpbin.org
+cookie: Max-Age=3600; Path=/
+content-type: application/x-www-form-urlencoded
+
+data=^
+

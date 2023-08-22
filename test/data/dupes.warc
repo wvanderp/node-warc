@@ -1,0 +1,609 @@
+WARC/1.0
+WARC-Type: warcinfo
+WARC-Record-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+WARC-Date: 2014-01-27T17:12:00Z
+Content-Length: 196
+Content-Type: application/warc-fields
+WARC-Filename: live-20140127171200-wwwb-app5.us.archive.org.warc.gz
+
+software: LiveWeb Warc Writer 1.0
+host: wwwb-app5.us.archive.org
+isPartOf: liveweb
+format: WARC file version 1.0
+conformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf
+
+
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:40eec527-440d-4541-8b9c-694d3bf3b5db>
+WARC-Date: 2014-01-27T17:12:00Z
+Content-Length: 1610
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:B2LTWWPUOYAH7UIPQ7ZUPQ4VMBSVC36A
+WARC-Target-URI: http://example.com
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=604800
+Content-Type: text/html
+Date: Mon, 27 Jan 2014 17:12:00 GMT
+Etag: "359670651"
+Expires: Mon, 03 Feb 2014 17:12:00 GMT
+Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT
+Server: ECS (sjc/4FCE)
+X-Cache: HIT
+x-ec-custom-error: 1
+Content-Length: 1270
+Connection: close
+
+<!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 1em;
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+            width: auto;
+            margin: 0 auto;
+            border-radius: 0;
+            padding: 1em;
+        }
+    }
+    </style>    
+</head>
+
+<body>
+<div>
+    <h1>Example Domain</h1>
+    <p>This domain is established to be used for illustrative examples in documents. You may use this
+    domain in examples without prior coordination or asking for permission.</p>
+    <p><a href="http://www.iana.org/domains/example">More information...</a></p>
+</div>
+</body>
+</html>
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:fd4b41c5-0480-4446-aed4-6fdb613193e7>
+WARC-Date: 2014-01-27T17:12:00Z
+Content-Length: 313
+Content-Type: application/http; msgtype=request
+WARC-Concurrent-To: <urn:uuid:40eec527-440d-4541-8b9c-694d3bf3b5db>
+WARC-Target-URI: http://example.com
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+GET / HTTP/1.1
+Connection: close
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 (via Wayback Save Page)
+Host: example.com
+
+
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:125f3091-65f6-4d0e-96dd-dbff7c551275>
+WARC-Date: 2014-01-27T17:12:38Z
+Content-Length: 107
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ
+WARC-Target-URI: http://iana.org
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+HTTP/1.0 302 Found
+Location: http://www.iana.org/
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:fc2eefee-1d29-4875-b5f1-865025ac106c>
+WARC-Date: 2014-01-27T17:12:38Z
+Content-Length: 310
+Content-Type: application/http; msgtype=request
+WARC-Concurrent-To: <urn:uuid:125f3091-65f6-4d0e-96dd-dbff7c551275>
+WARC-Target-URI: http://iana.org
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+GET / HTTP/1.1
+Connection: close
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 (via Wayback Save Page)
+Host: iana.org
+
+
+WARC/1.0
+WARC-Type: revisit
+WARC-Record-ID: <urn:uuid:a5d5169c-e095-419d-beeb-4d857712b5a2>
+WARC-Date: 2014-01-27T17:12:38Z
+Content-Length: 307
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:OSSAPWJ23L56IYVRW3GFEAR4MCJMGPTB
+WARC-Target-URI: http://www.iana.org/
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+WARC-Profile: http://netpreserve.org/warc/0.18/revisit/identical-payload-digest
+WARC-Refers-To-Target-URI: http://www.iana.org/
+WARC-Refers-To-Date: 2014-01-26T20:06:24Z
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Wed, 15 Jan 2014 02:12:29 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 27 Jan 2014 17:12:38 GMT
+X-Varnish: 774563415 774562522
+Age: 80
+Via: 1.1 varnish
+Connection: close
+Content-Length: -1
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:35e0541b-77ff-48ce-b098-5af55a5df930>
+WARC-Date: 2014-01-27T17:12:38Z
+Content-Length: 314
+Content-Type: application/http; msgtype=request
+WARC-Concurrent-To: <urn:uuid:a5d5169c-e095-419d-beeb-4d857712b5a2>
+WARC-Target-URI: http://www.iana.org/
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+GET / HTTP/1.1
+Connection: close
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 (via Wayback Save Page)
+Host: www.iana.org
+
+
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:92686892-3527-4e5d-a754-466d60d47066>
+WARC-Date: 2014-01-27T17:12:39Z
+Content-Length: 278
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ
+WARC-Target-URI: http://www.iana.org/_js/2013.1/iana.js
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 04 Jan 2013 01:17:15 GMT
+Content-Type: application/x-javascript
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Mon, 27 Jan 2014 17:12:39 GMT
+X-Varnish: 774563424 774562199
+Age: 115
+Via: 1.1 varnish
+Connection: close
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:7bfa6078-106a-40c4-aaa5-bce2d6392221>
+WARC-Date: 2014-01-27T17:12:39Z
+Content-Length: 292
+Content-Type: application/http; msgtype=request
+WARC-Concurrent-To: <urn:uuid:92686892-3527-4e5d-a754-466d60d47066>
+WARC-Target-URI: http://www.iana.org/_js/2013.1/iana.js
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+GET /_js/2013.1/iana.js HTTP/1.1
+Connection: close
+Accept: */*
+Accept-Language: en-US,en;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 (via Wayback Save Page)
+Referer: http://www.iana.org/
+Host: www.iana.org
+
+
+WARC/1.0
+WARC-Type: revisit
+WARC-Record-ID: <urn:uuid:c8ffc8b9-c57c-4d22-af7f-96bef67a2778>
+WARC-Date: 2014-01-27T17:12:39Z
+Content-Length: 292
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:BUAEPXZNN44AIX3NLXON4QDV6OY2H5QD
+WARC-Target-URI: http://www.iana.org/_css/2013.1/screen.css
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+WARC-Profile: http://netpreserve.org/warc/0.18/revisit/identical-payload-digest
+WARC-Refers-To-Target-URI: http://www.iana.org/_css/2013.1/screen.css
+WARC-Refers-To-Date: 2014-01-26T20:06:25Z
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Tue, 19 Nov 2013 18:28:07 GMT
+Vary: Accept-Encoding
+Content-Type: text/css
+Transfer-Encoding: chunked
+Date: Mon, 27 Jan 2014 17:12:39 GMT
+X-Varnish: 2085248159 2085248135
+Age: 1
+Via: 1.1 varnish
+Connection: close
+Content-Length: -1
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:ce60a84d-de67-4362-9ca5-f0bedbabf9e3>
+WARC-Date: 2014-01-27T17:12:39Z
+Content-Length: 311
+Content-Type: application/http; msgtype=request
+WARC-Concurrent-To: <urn:uuid:c8ffc8b9-c57c-4d22-af7f-96bef67a2778>
+WARC-Target-URI: http://www.iana.org/_css/2013.1/screen.css
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+GET /_css/2013.1/screen.css HTTP/1.1
+Connection: close
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 (via Wayback Save Page)
+Referer: http://www.iana.org/
+Host: www.iana.org
+
+
+WARC/1.0
+WARC-Type: revisit
+WARC-Record-ID: <urn:uuid:ecaba165-5eb5-4fca-9eef-5ec5bbf643e5>
+WARC-Date: 2014-01-27T17:12:39Z
+Content-Length: 309
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:AAW2RS7JB7HTF666XNZDQYJFA6PDQBPO
+WARC-Target-URI: http://www.iana.org/_js/2013.1/jquery.js
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+WARC-Profile: http://netpreserve.org/warc/0.18/revisit/identical-payload-digest
+WARC-Refers-To-Target-URI: http://www.iana.org/_js/2013.1/jquery.js
+WARC-Refers-To-Date: 2014-01-26T20:06:25Z
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Mon, 22 Apr 2013 18:18:55 GMT
+Vary: Accept-Encoding
+Content-Type: application/x-javascript
+Transfer-Encoding: chunked
+Date: Mon, 27 Jan 2014 17:12:39 GMT
+X-Varnish: 2085248160 2085247770
+Age: 34
+Via: 1.1 varnish
+Connection: close
+Content-Length: -1
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:480d5a4f-d9d6-4fa3-84a5-1d69b20e07b7>
+WARC-Date: 2014-01-27T17:12:39Z
+Content-Length: 294
+Content-Type: application/http; msgtype=request
+WARC-Concurrent-To: <urn:uuid:ecaba165-5eb5-4fca-9eef-5ec5bbf643e5>
+WARC-Target-URI: http://www.iana.org/_js/2013.1/jquery.js
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+GET /_js/2013.1/jquery.js HTTP/1.1
+Connection: close
+Accept: */*
+Accept-Language: en-US,en;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 (via Wayback Save Page)
+Referer: http://www.iana.org/
+Host: www.iana.org
+
+
+WARC/1.0
+WARC-Type: revisit
+WARC-Record-ID: <urn:uuid:318e34f2-cd58-4d9a-9fe3-db229372eb54>
+WARC-Date: 2014-01-27T17:12:39Z
+Content-Length: 290
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:VNBXHMUNWJQC5OWWGZ3X7GM5C7X6ZAB4
+WARC-Target-URI: http://www.iana.org/_css/2013.1/print.css
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+WARC-Profile: http://netpreserve.org/warc/0.18/revisit/identical-payload-digest
+WARC-Refers-To-Target-URI: http://www.iana.org/_css/2013.1/print.css
+WARC-Refers-To-Date: 2014-01-26T20:06:25Z
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 04 Jan 2013 01:17:14 GMT
+Vary: Accept-Encoding
+Content-Type: text/css
+Transfer-Encoding: chunked
+Date: Mon, 27 Jan 2014 17:12:39 GMT
+X-Varnish: 774563425 774563341
+Age: 7
+Via: 1.1 varnish
+Connection: close
+Content-Length: -1
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:01003055-3078-43f7-aebe-fed0bbf9198d>
+WARC-Date: 2014-01-27T17:12:39Z
+Content-Length: 310
+Content-Type: application/http; msgtype=request
+WARC-Concurrent-To: <urn:uuid:318e34f2-cd58-4d9a-9fe3-db229372eb54>
+WARC-Target-URI: http://www.iana.org/_css/2013.1/print.css
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+GET /_css/2013.1/print.css HTTP/1.1
+Connection: close
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 (via Wayback Save Page)
+Referer: http://www.iana.org/
+Host: www.iana.org
+
+
+WARC/1.0
+WARC-Type: revisit
+WARC-Record-ID: <urn:uuid:307ac67e-c8c3-49df-9032-5d58afd39df5>
+WARC-Date: 2014-01-27T17:12:39Z
+Content-Length: 297
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:HGRZHOH73EFQQWBYWBSOIV2UU5JDTSGJ
+WARC-Target-URI: http://www.iana.org/_img/2013.1/icann-logo.svg
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+WARC-Profile: http://netpreserve.org/warc/0.18/revisit/identical-payload-digest
+WARC-Refers-To-Target-URI: http://www.iana.org/_img/2013.1/icann-logo.svg
+WARC-Refers-To-Date: 2014-01-26T20:06:25Z
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 04 Jan 2013 01:17:14 GMT
+Vary: Accept-Encoding
+Content-Type: image/svg+xml
+Transfer-Encoding: chunked
+Date: Mon, 27 Jan 2014 17:12:39 GMT
+X-Varnish: 774563434 774562265
+Age: 109
+Via: 1.1 varnish
+Connection: close
+Content-Length: -1
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:1ee187fc-8f85-4116-a905-52fdd1b2a2b4>
+WARC-Date: 2014-01-27T17:12:39Z
+Content-Length: 317
+Content-Type: application/http; msgtype=request
+WARC-Concurrent-To: <urn:uuid:307ac67e-c8c3-49df-9032-5d58afd39df5>
+WARC-Target-URI: http://www.iana.org/_img/2013.1/icann-logo.svg
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+GET /_img/2013.1/icann-logo.svg HTTP/1.1
+Connection: close
+Accept: image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 (via Wayback Save Page)
+Referer: http://www.iana.org/
+Host: www.iana.org
+
+
+WARC/1.0
+WARC-Type: revisit
+WARC-Record-ID: <urn:uuid:496fde68-81e3-4624-8113-e08c956e029c>
+WARC-Date: 2014-01-27T17:12:40Z
+Content-Length: 292
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:GCW2GM3SIMHEIQYZX25MLSRYVWUCZ7OK
+WARC-Target-URI: http://www.iana.org/_img/2013.1/iana-logo-homepage.png
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+WARC-Profile: http://netpreserve.org/warc/0.18/revisit/identical-payload-digest
+WARC-Refers-To-Target-URI: http://www.iana.org/_img/2013.1/iana-logo-homepage.png
+WARC-Refers-To-Date: 2014-01-26T20:06:25Z
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 04 Jan 2013 01:17:14 GMT
+Vary: Accept-Encoding
+Content-Type: image/png
+Transfer-Encoding: chunked
+Date: Mon, 27 Jan 2014 17:12:40 GMT
+X-Varnish: 774563438 774562992
+Age: 40
+Via: 1.1 varnish
+Connection: close
+Content-Length: -1
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:8f9a9938-8afb-4de1-814d-51ae003c0362>
+WARC-Date: 2014-01-27T17:12:40Z
+Content-Length: 325
+Content-Type: application/http; msgtype=request
+WARC-Concurrent-To: <urn:uuid:496fde68-81e3-4624-8113-e08c956e029c>
+WARC-Target-URI: http://www.iana.org/_img/2013.1/iana-logo-homepage.png
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+GET /_img/2013.1/iana-logo-homepage.png HTTP/1.1
+Connection: close
+Accept: image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 (via Wayback Save Page)
+Referer: http://www.iana.org/
+Host: www.iana.org
+
+
+WARC/1.0
+WARC-Type: revisit
+WARC-Record-ID: <urn:uuid:27737af2-1c65-4698-aecc-9eaa309f422a>
+WARC-Date: 2014-01-27T17:12:40Z
+Content-Length: 285
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:GVSO2C2TMPPVZ4TXYFXAY27NYWTIEIL7
+WARC-Target-URI: http://www.iana.org/_css/2013.1/fonts/OpenSans-Regular.ttf
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+WARC-Profile: http://netpreserve.org/warc/0.18/revisit/identical-payload-digest
+WARC-Refers-To-Target-URI: http://www.iana.org/_css/2013.1/fonts/OpenSans-Regular.ttf
+WARC-Refers-To-Date: 2014-01-26T20:06:26Z
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 04 Jan 2013 01:17:14 GMT
+Content-Type: application/octet-stream
+Content-Length: 217360
+Accept-Ranges: bytes
+Date: Mon, 27 Jan 2014 17:12:40 GMT
+X-Varnish: 2085248179 2085247189
+Age: 101
+Via: 1.1 varnish
+Connection: close
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:6498eb88-23ce-4351-860b-138439dbc6f6>
+WARC-Date: 2014-01-27T17:12:40Z
+Content-Length: 312
+Content-Type: application/http; msgtype=request
+WARC-Concurrent-To: <urn:uuid:27737af2-1c65-4698-aecc-9eaa309f422a>
+WARC-Target-URI: http://www.iana.org/_css/2013.1/fonts/OpenSans-Regular.ttf
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+GET /_css/2013.1/fonts/OpenSans-Regular.ttf HTTP/1.1
+Connection: close
+Accept: */*
+Accept-Language: en-US,en;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 (via Wayback Save Page)
+Referer: http://www.iana.org/
+Host: www.iana.org
+
+
+WARC/1.0
+WARC-Type: revisit
+WARC-Record-ID: <urn:uuid:4f729b55-8742-438b-80d0-a72e6dd907ec>
+WARC-Date: 2014-01-27T17:12:40Z
+Content-Length: 307
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:YFUR5ALIWJMWV6FAAFRLVRQNXZQF5HRW
+WARC-Target-URI: http://www.iana.org/_css/2013.1/fonts/OpenSans-Bold.ttf
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+WARC-Profile: http://netpreserve.org/warc/0.18/revisit/identical-payload-digest
+WARC-Refers-To-Target-URI: http://www.iana.org/_css/2013.1/fonts/OpenSans-Bold.ttf
+WARC-Refers-To-Date: 2014-01-26T20:06:25Z
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 04 Jan 2013 01:17:14 GMT
+Vary: Accept-Encoding
+Content-Type: application/octet-stream
+Transfer-Encoding: chunked
+Date: Mon, 27 Jan 2014 17:12:40 GMT
+X-Varnish: 774563441 774562570
+Age: 77
+Via: 1.1 varnish
+Connection: close
+Content-Length: -1
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:2526c89f-742b-4ce2-8488-2ca1fae33527>
+WARC-Date: 2014-01-27T17:12:40Z
+Content-Length: 309
+Content-Type: application/http; msgtype=request
+WARC-Concurrent-To: <urn:uuid:4f729b55-8742-438b-80d0-a72e6dd907ec>
+WARC-Target-URI: http://www.iana.org/_css/2013.1/fonts/OpenSans-Bold.ttf
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+GET /_css/2013.1/fonts/OpenSans-Bold.ttf HTTP/1.1
+Connection: close
+Accept: */*
+Accept-Language: en-US,en;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 (via Wayback Save Page)
+Referer: http://www.iana.org/
+Host: www.iana.org
+
+
+WARC/1.0
+WARC-Type: revisit
+WARC-Record-ID: <urn:uuid:0b83e467-6093-49c3-94f9-ab53578c6e2d>
+WARC-Date: 2014-01-27T17:12:51Z
+Content-Length: 340
+Content-Type: application/http; msgtype=response
+WARC-Payload-Digest: sha1:B2LTWWPUOYAH7UIPQ7ZUPQ4VMBSVC36A
+WARC-Target-URI: http://example.com
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+WARC-Profile: http://netpreserve.org/warc/0.18/revisit/identical-payload-digest
+WARC-Refers-To-Target-URI: http://example.com
+WARC-Refers-To-Date: 2014-01-27T17:12:00Z
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=604800
+Content-Type: text/html
+Date: Mon, 27 Jan 2014 17:12:51 GMT
+Etag: "359670651"
+Expires: Mon, 03 Feb 2014 17:12:51 GMT
+Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT
+Server: ECS (sjc/4FB4)
+X-Cache: HIT
+x-ec-custom-error: 1
+Content-Length: 1270
+Connection: close
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Record-ID: <urn:uuid:6e212d1f-38c4-4897-8302-42af9f115706>
+WARC-Date: 2014-01-27T17:12:51Z
+Content-Length: 313
+Content-Type: application/http; msgtype=request
+WARC-Concurrent-To: <urn:uuid:0b83e467-6093-49c3-94f9-ab53578c6e2d>
+WARC-Target-URI: http://example.com
+WARC-Warcinfo-ID: <urn:uuid:f087c2a7-14b3-43b7-9c47-79f29f4b39e7>
+
+GET / HTTP/1.1
+Connection: close
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 (via Wayback Save Page)
+Host: example.com
+
+

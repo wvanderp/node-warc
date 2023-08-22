@@ -1,0 +1,44 @@
+WARC/1.0
+WARC-Type: warcinfo
+WARC-Date: 2014-03-04T19:23:21.000Z
+WARC-Filename: warc-rev-new000000.warc.gz
+WARC-Record-ID: <urn:uuid:urn:uuid:85d57ef9-0bd2-4a35-ba46-946ccf9e3d9f>
+Content-Type: application/warc-fields
+Content-Length: 243
+
+software: ia-web-commons.1.0-SNAPSHOT-20131207032619 Extractor
+format: WARC File Format 1.0
+conformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf
+publisher: Internet Archive
+created: 2014-03-04T19:23:21.124Z
+
+
+
+WARC/1.0
+WARC-Type: revisit
+WARC-Target-URI: http://test@example.com/
+WARC-Date: 2013-07-29T19:51:51Z
+WARC-Payload-Digest: sha1:B2LTWWPUOYAH7UIPQ7ZUPQ4VMBSVC36A
+WARC-IP-Address: 93.184.216.119
+WARC-Profile: http://netpreserve.org/warc/1.0/revisit/uri-agnostic-identical-payload-digest
+WARC-Truncated: length
+WARC-Refers-To: <urn:uuid:c0b8a812-1a11-4cd1-9189-58bc8eb6457f>
+WARC-Refers-To-Target-URI: http://example.iana.org/
+WARC-Refers-To-Date: 2013-07-02T19:54:02Z
+WARC-Record-ID: <urn:uuid:23920436-3588-4b2d-b270-9412a4dd8ad1>
+Content-Type: application/http; msgtype=response
+Content-Length: 277
+
+HTTP/1.0 200 OK
+Accept-Ranges: bytes
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 29 Jul 2013 19:51:51 GMT
+ETag: "780602-4f6-4db31b2978ec0"
+Last-Modified: Thu, 25 Apr 2013 16:13:23 GMT
+Server: ECS (sjc/4FCE)
+X-Cache: HIT
+Content-Length: 1270
+Connection: close
+
+
+

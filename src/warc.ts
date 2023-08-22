@@ -1,92 +1,73 @@
-const fs = require("fs");
-const R = require("ramda");
+import stringifyRecord from './utils/stringify';
 
-const {stringifyRecord} = require("./lib/stringify");
+import { WarcRecord } from './types';
 
-import {WarcRecord} from "./types"
+import br from './utils/br';
+import parseWarc from './parse/parseWarc';
 
-import {br} from './lib/util'
+/**
+ *
+ * A class representing a WARC file
+ *
+ * @class Warc
+ */
+export default class Warc {
+    public records: WarcRecord[];
 
-class Warc {
-    private records: WarcRecord[];
-
+    /**
+     * creates a new empty warc file
+     *
+     * @example
+     * const warc = new Warc();
+     */
     constructor() {
         this.records = [];
     }
 
-    writeWarc(fileLocation: String) {
-        const writeStream = fs.createWriteStream(fileLocation);
-        R.forEach((r) => writeStream.write(stringifyRecord(r)), this.records);
-        writeStream.close()
+    /**
+     * adds a record to the warc file
+     *
+     * @param {WarcRecord} record the record to add
+     * @example
+     * warc.addRecord(record);
+     */
+    addRecord(record: WarcRecord): void {
+        this.records.push(record);
     }
 
-    getWarcSummary(): String {
-        return 'Warc summary ' + br +
-            'warc records count: ' + this.records.length;
-
-
+    /**
+     * adds multiple records to the warc file
+     *
+     * @param {WarcRecord[]} records the records to add
+     * @example
+     * warc.addRecords(records);
+     */
+    addRecords(records: WarcRecord[]): void {
+        this.records.push(...records);
     }
 
-    addAxios(resp) {
-        // var cache = [];
-        // console.log(JSON.stringify(resp, function (key, value) {
-        //     if (typeof value === 'object' && value !== null) {
-        //         if (cache.indexOf(value) !== -1) {
-        //             // Duplicate reference found, discard key
-        //             return value + "";
-        //         }
-        //         // Store value in our collection
-        //         cache.push(value);
-        //     }
-        //     return value;
-        // }));
-        // cache = null;
-
-        // request
-        const requestBody = resp.request._header
-
-
-        //response
-        // console.log(resp.request.socket._httpMessage)
-
-        const isObject = typeof resp.data === 'object' && resp.data !== null;
-        const data = isObject ? JSON.stringify(resp.data) : resp.data;
-
-        const respHeader = R.pipe(
-            R.aperture(2),
-            R.map(r => r.join(": ")),
-            r => r.join(br)
-        )(resp.request.res.rawHeaders);
-
-        // console.log(respHeader);
-
-        const httpHead = 'HTTP/' + resp.request.res.httpVersion + ' ' + resp.request.res.statusCode + ' ' + resp.request.res.statusMessage;
-
-        const responseBody = httpHead + br + respHeader + br + br + data;
-
-        // fix all
-
-        // console.log(requestBody);
-        // console.log("response")
-        // console.log(responseBody)
-
-        this.records.push({
-            type: "request",
-            date: new Date(),
-            body: requestBody
-        });
-
-
-        this.records.push({
-            type: "response",
-            date: new Date(),
-            body: responseBody
-        })
+    /**
+     * creates a utf-8 string from the warc file
+     *
+     * @returns {string} the stringified warc file
+     * @example
+     * warc.toFile();
+     */
+    public toFile(): string {
+        return this.records
+            .map((record) => stringifyRecord(record))
+            .join(br + br + br);
     }
 
-    addInfo(infoObject: Object) {
-
+    /**
+     * parses a warc file into a Warc object
+     *
+     * @param {string} warcFile the warc file to parse
+     * @returns {Warc} the parsed warc file
+     * @example
+     * Warc.parse(warcFile);
+     */
+    static parse(warcFile: string): Warc {
+        return parseWarc(warcFile);
     }
 }
-
-module.exports = Warc;

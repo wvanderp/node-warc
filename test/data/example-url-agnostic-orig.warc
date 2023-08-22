@@ -1,0 +1,89 @@
+WARC/1.0
+WARC-Type: warcinfo
+WARC-Date: 2014-03-04T05:14:21.000Z
+WARC-Filename: warc-orig-000000.warc.gz
+WARC-Record-ID: <urn:uuid:urn:uuid:01d758f9-c0ae-45c4-827a-e95ab60ce439>
+Content-Type: application/warc-fields
+Content-Length: 243
+
+software: ia-web-commons.1.0-SNAPSHOT-20131207032619 Extractor
+format: WARC File Format 1.0
+conformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf
+publisher: Internet Archive
+created: 2014-03-04T05:14:21.251Z
+
+
+
+WARC/1.0
+WARC-Type: response
+WARC-Target-URI: http://example.iana.org/
+WARC-Date: 2013-07-02T19:54:02Z
+WARC-Payload-Digest: sha1:B2LTWWPUOYAH7UIPQ7ZUPQ4VMBSVC36A
+WARC-IP-Address: 93.184.216.119
+WARC-Record-ID: <urn:uuid:c0b8a812-1a11-4cd1-9189-58bc8eb6457f>
+Content-Type: application/http; msgtype=response
+Content-Length: 1547
+
+HTTP/1.0 200 OK
+Accept-Ranges: bytes
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 02 Jul 2013 19:54:02 GMT
+ETag: "780602-4f6-4db31b2978ec0"
+Last-Modified: Thu, 25 Apr 2013 16:13:23 GMT
+Server: ECS (sjc/4FCE)
+X-Cache: HIT
+Content-Length: 1270
+Connection: close
+
+<!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 1em;
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+            width: auto;
+            margin: 0 auto;
+            border-radius: 0;
+            padding: 1em;
+        }
+    }
+    </style>    
+</head>
+
+<body>
+<div>
+    <h1>Example Domain</h1>
+    <p>This domain is established to be used for illustrative examples in documents. You may use this
+    domain in examples without prior coordination or asking for permission.</p>
+    <p><a href="http://www.iana.org/domains/example">More information...</a></p>
+</div>
+</body>
+</html>
+
+

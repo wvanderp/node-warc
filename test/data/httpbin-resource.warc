@@ -1,0 +1,31 @@
+WARC/1.0
+WARC-Date: 2017-11-30T22:09:04Z
+WARC-Source-URI: file://./httpbin.org/anything/resource.json
+WARC-Created-Date: 2017-11-30T22:09:20Z
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:1d8757ae-d61b-11e7-bb2c-dca90482c8ee>
+WARC-Target-URI: http://httpbin.org/anything/resource.json
+WARC-Payload-Digest: sha1:UQ3W6RIQVJO6ZEL55355BJODG2DMWBPH
+WARC-Block-Digest: sha1:UQ3W6RIQVJO6ZEL55355BJODG2DMWBPH
+Content-Type: application/json
+Content-Length: 367
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "identity", 
+    "Connection": "close", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Wget/1.19.1 (darwin16.6.0)"
+  }, 
+  "json": null, 
+  "method": "GET", 
+  "origin": "67.188.38.244", 
+  "url": "http://httpbin.org/anything/resource.json"
+}
+
+
