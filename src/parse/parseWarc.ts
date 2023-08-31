@@ -33,6 +33,7 @@ function parseRecord(record: string): WarcRecord {
                 return accumulator;
             }
 
+            // eslint-disable-next-line prefer-destructuring
             accumulator[current[0]] = current[1];
             return accumulator;
         }, {} as Record<string, string>);

@@ -13,7 +13,8 @@
   "scripts": {
     "test": "mocha -r ts-node/register test/**/*.spec.ts",
     "lint": "tsc --noEmit && eslint --ext ts,js src/ test/",
-    "dev": "ts-node test/dev/run.ts"
+    "dev": "ts-node test/dev/run.ts",
+    "build": "rimraf lib && tsc -P ./tsconfig.build.json"
   },
   "dependencies": {
     "crypto-js": "^4.1.1",
