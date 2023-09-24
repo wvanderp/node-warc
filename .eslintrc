@@ -11,6 +11,10 @@
   "globals": {
     "BigInt": true
   },
+  "ignorePatterns": [
+    "lib/",
+    "test/"
+  ],
   "settings": {
     "import/parsers": {
       "@typescript-eslint/parser": [

@@ -10,42 +10,42 @@
   "author": "wvdp",
   "license": "MIT",
   "main": "./lib/Warc.js",
-  "types": "./lib",
+  "types": "./lib/Warc.d.ts",
   "scripts": {
     "test": "mocha -r ts-node/register test/**/*.spec.ts",
-    "lint": "tsc --noEmit && eslint --ext ts,js src/ test/",
+    "lint": "tsc --noEmit && eslint --ext ts,js src/",
     "dev": "ts-node test/dev/run.ts",
     "build": "rimraf lib && tsc -P ./tsconfig.build.json"
   },
   "dependencies": {
     "crypto-js": "^4.1.1",
-    "flatted": "^3.2.7",
-    "uuid": "^9.0.0"
+    "flatted": "^3.2.9",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "@types/chai": "^4.3.5",
+    "@types/chai": "^4.3.6",
     "@types/mocha": "^10.0.1",
-    "@types/node": "^20.5.3",
-    "@typescript-eslint/eslint-plugin": "^6.4.1",
-    "@typescript-eslint/parser": "^6.4.1",
-    "chai": "^4.3.7",
-    "eslint": "^8.47.0",
+    "@types/node": "^20.6.5",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "chai": "^4.3.8",
+    "eslint": "^8.50.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
-    "eslint-import-resolver-typescript": "^3.6.0",
-    "eslint-plugin-compat": "^4.1.4",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-compat": "^4.2.0",
     "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-jsdoc": "^46.5.0",
+    "eslint-plugin-jsdoc": "^46.8.2",
     "eslint-plugin-jsonc": "^2.9.0",
     "eslint-plugin-no-secrets": "^0.8.9",
     "eslint-plugin-pii": "^1.0.2",
     "eslint-plugin-ramda": "^2.5.1",
-    "eslint-plugin-sonarjs": "^0.20.0",
+    "eslint-plugin-sonarjs": "^0.21.0",
     "eslint-plugin-unicorn": "^48.0.1",
     "eslint-plugin-woke": "^1.0.1",
     "mocha": "^10.2.0",
     "should": "^13.2.3",
     "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   }
 }
